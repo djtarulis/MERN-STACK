@@ -1,6 +1,6 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-const uri = process.env.ATLAS_URI || "";
+const uri = "mongodb+srv://djtarulis:Chickenn1!@merntest.togqq.mongodb.net/?retryWrites=true&w=majority&appName=MERNtest";
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
